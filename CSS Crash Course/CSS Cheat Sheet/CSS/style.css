@@ -1,0 +1,188 @@
+/*
+*{
+	margin: 0;
+	padding: 0;
+}
+*/
+
+body{
+	background-color:#f3f3f3;
+	color:#3c3c3c;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-style: italic;
+
+	line-height: 1.4em;
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+	color: #3c3c3c;
+}
+
+a:hover{
+	color: green;
+}
+
+a:active{
+	color: orange;
+}
+
+a:visited{
+	color: white;
+}
+
+.box-1{
+	background-color:#3cb371;
+	padding-top: 5px;
+
+	border:7px #3c3c3c solid;
+	border-right: 10px red solid;
+
+	padding: 15px;
+	margin: 20px 0px;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.button{
+	background-color: #3cb371;
+	padding: 5px;
+	border-radius: 10px;
+	border: none;
+}
+
+.button:hover{
+	background-color: red;
+}
+
+.clr{
+	clear: both;
+}
+
+.box-1 h1{
+	font-family:Tahoma;
+	font-style:normal; 
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0,2em;
+	word-spacing: 15px;
+}
+
+.box-2{
+	border: 7px #3c3c3c dotted;
+	padding: 15px;
+	margin: 20px 0px;
+}
+
+.categories{
+	border: 3px #3c3c3c solid;
+	padding: 0px 15px;
+	margin: 20px 0px;
+	border-radius: 20px;
+}
+
+.categories h2{
+	text-align: center;
+	font-style: normal;
+}
+
+.categories ul{
+	padding: 15px;
+	list-style: none;
+}
+
+.categories li{
+	padding-bottom: 5px;
+	border-bottom: 1px #3c3c3c solid;
+	list-style-image: url('../images/check.png');
+}
+
+.my-form{
+	padding: 20px; 
+}
+
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+
+.my-form label{
+	display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+	padding: 8px;
+	width: 100%
+}
+
+.block{
+	float: left;
+	width: 33.3%;
+	padding: 8px;
+	border: 1px #3c3c3c solid;
+	box-sizing: border-box;
+}
+
+#main-block{
+	float:left;
+	width: 70%;
+	margin-top: 13px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 13px;
+	padding: 10px;
+	background-color: #3cb371;
+	box-sizing: border-box;
+}
+
+.p-box{
+	width: 500px;
+	height: 300px;
+	border: 1px solid #3c3c3c;
+	margin-top:30px;
+	position: relative;
+	background-image: url('../images/bgimage1.jpg');
+	background-position: center top;
+	
+
+	/* background-position: 100px 200px;
+	background-repeat: no-repeat; */
+}
+
+.p-box h1{
+	position: absolute;
+	top:150px;
+}
+
+.p-box h2{
+	position: absolute;
+	top: 150px; 
+	right: 5px;
+}
+
+.fix-me{
+	position: fixed;
+	top: 350px;
+}
+
+.my-list li:first-child{
+	background: #3cb371;
+}
+
+.my-list li:nth-child(3){
+	background: red;
+}
+
+.my-list li:nth-child(even){
+	background: grey;
+}
