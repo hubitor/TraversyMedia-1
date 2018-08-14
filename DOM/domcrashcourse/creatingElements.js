@@ -1,3 +1,4 @@
+/*
 // CREATE ELEMENT
 
 var newDiv = document.createElement('div');
@@ -22,3 +23,4 @@ console.log(newDiv);
 
 // styling
 newDiv.style.color = "orange";
+*/
